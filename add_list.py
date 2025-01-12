@@ -34,9 +34,9 @@ temp_created_date = f"Дата создания заметки: {created_date[0:
 temp_issue_date = f"Дата истечения заметки: {issue_date[0:5]}" # Дата истечения заметки (дедлайн) в формате "день-месяц"
 
 # Вывод на экран внесённых пользователем данных
-print("Имя пользователя: ",username)
-print("Заголовоки заметки: ",titles)
-print("Описание заметки: ",content)
-print("Статус заметки: ",status)
+print("Имя пользователя: ", username)
+print("Заголовоки заметки: ", titles)
+print("Описание заметки: ", content)
+print("Статус заметки: ", status)
 print(temp_created_date)
 print(temp_issue_date)
